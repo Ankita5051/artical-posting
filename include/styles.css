@@ -1,0 +1,642 @@
+body{
+  
+    margin: 0 auto;
+    padding: 0;
+  
+}
+#banner-containt{
+    background: transparent;
+    width: 33%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+margin: 10% 1%;
+margin: auto;
+align-items: center;
+}
+#banner-containt h1{
+    font-size: 35px;
+}
+#banner-containt p{
+    font-size: 20px;
+}
+.signup-btn{
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 5px;
+    background: transparent;
+    width: 40%;
+    border: 2px solid rgb(162, 105, 243);
+    cursor: pointer;
+    text-align: center;
+    font-size: 25px;
+}
+.banner-img{
+    height: 88vh;
+    width: 65%;
+    background-image:url("../img/banner-2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner{
+    background: rgb(97, 97, 210);
+    margin:0 7%;
+    height:88vh;
+ display: flex;
+    background:transparent;
+    background-repeat: no-repeat;   
+}
+
+.header{
+    padding: 2px 150px;
+    display: flex;
+    flex-direction:row;
+    border-bottom: 2px solid #ddd;
+    justify-content: space-around;
+}
+.brand{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 35px;
+    font-weight: 600;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    
+}
+.header-list{
+display: flex;
+width: 180px;
+align-items: center;
+justify-content: space-between;
+}
+
+.header-list li{
+    font-size:22px;
+    padding: 4px;
+    text-align: center;
+    border-bottom: 2px solid;
+    width: 70px;
+    cursor: pointer;
+}
+.footer{
+    height: 7vh;
+    border: 1px solid;
+}
+.detail{
+    background: transparent;
+    width: 33%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+margin: 10% 1%;
+margin: auto;
+text-align: center;
+align-items: center;  
+font-size: 20px; 
+display: none;
+}
+
+.sinl{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.form{
+    height: 55%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+align-items: center;    
+justify-content: space-around;
+}
+.sinput{
+    font-size: 20px;
+}
+
+#userhome{
+    border-bottom: 2px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:70px;
+    text-transform:capitalize;
+}
+.uh-list ul{
+	
+	padding:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:800px;
+    border-bottom:1px solid #ddd;
+    margin:auto;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+.uh-list ul li{
+
+    padding:4px;
+    text-transform:capitalize;
+    font-size:23px;
+ cursor: pointer;   
+
+}
+
+.log{
+	width:100vw;
+	background:#ee8312;
+	font-size:23px;
+	padding:5px;
+	text-align:center;
+}
+#profile{
+    border: 1px solid;
+margin:4px 10%;
+	display:flex;
+}
+.img{
+	margin-right:30px;
+	width:200px;
+	height:200px;
+	border:2px solid #ddd;
+	overflow:hidden;
+}
+.about{
+	font-size:25px;
+	text-transform:capitalize;
+}
+#edit-profile{
+	margin:4px 10%;
+	display:none;
+}
+#edit-profile form{
+	padding:1% 5%;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	height:200px;
+	border:1px solid #ddd;
+	font-size:23px;
+}
+#psave{
+	width:40%;
+	font-size:23px;
+	padding:2px;
+	background:transparent;
+	border:2px solid #ddd;
+	cursor:pointer;
+}
+#e_about{
+	font-size:18px;
+	outline:none;
+    text-align: left;
+    resize: none;
+    width: -webkit-fill-available;
+}
+
+.member{
+    margin:2% 10%;
+    border: 1px solid;
+    width: 80%;
+    padding: 0 5%;
+}
+.demo-img{
+    border-radius: 50%;
+    height: 110px;
+    width: 20%;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    box-sizing: border-box;
+}
+.wrap-detail{
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    box-sizing: border-box;
+}
+table,th, tr,td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+ .member-cell{
+    height: 110px;
+    width: 15%;
+    font-size: 23px;
+    text-transform: capitalize;
+}
+.table-head{
+    text-transform: uppercase;
+}
+.profile-cell{
+    width: 40%;
+    cursor: pointer;
+font-size: 20px;
+}
+
+.status-btn{
+    background: transparent;
+    font-size: 20px;
+    display: block;
+    margin: 20px auto;
+    width: 100px;
+    cursor: pointer;
+}
+
+.message{
+    width: 85%;
+    display: flex;
+ margin:0 8%;
+ height: 61vh;
+border: 1px solid #ddd;
+}
+
+.private{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  
+  
+}
+.write{
+display: flex;
+    height: 100%;
+    width: 100%;
+   
+   box-sizing: border-box;
+   padding: 3%;
+}
+.you{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.you button{
+    width: 70%;
+}
+.wm-img{
+    width: 100px;
+    height: 100px;
+}
+.m-form{
+    padding: 1%;
+display: flex;
+width: 70%;
+flex-direction: column;
+justify-content: left;
+box-sizing: border-box;
+}
+.m-form form{
+   box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.m-in{
+    resize: none;
+    outline: none;
+    border: 1px solid #ddd;
+   font-size: 16px;
+    padding: 3px 2px;
+    color: rgba(37, 33, 33, 0.934);
+}
+.read{
+    overflow-y: auto;
+    text-align:justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 5%;
+    height: 100%;
+    box-sizing: border-box;
+    border-left: 1px solid #ddd;
+}
+.p_post{
+display: flex;
+flex-direction: column;
+align-items: center;
+border: 1px solid #ddd;
+border-radius: 5%;
+margin-bottom: 3%;
+padding:0 5%;
+width: 80%;
+}
+.u-detail{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+text-transform: capitalize;
+margin: auto;
+}
+
+.m-p-img{
+    height: 100px;
+    width: 100px;
+}
+.m-mesg{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.m-mesg img{
+    width: 30%;
+}
+.m-mesg div{
+    display: block;
+    width: 100%;
+    text-align: left;
+    
+}
+
+button{
+    cursor: pointer;
+}
+#remove{
+    color: #08084d;
+    border-bottom:1px solid #08084d ;
+}
+.logout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    margin:auto;
+}
+#lcr{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    padding: 3px;
+ 
+}
+.likers{
+    min-height: 100px;
+    max-height: 300px;
+    overflow-y: auto;
+   padding: 20px;
+    width: 30%;
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    border: 1px solid #ddd;
+   background: white;
+display: none;
+}
+.check-head{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+.check-head i{
+    cursor: pointer;
+}
+.liker{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* #check{
+    /* display: none;
+    cursor: pointer;
+}
+
+#check:checked ~ .likers{
+    opacity:1;
+    visibility: visible;
+} */
+.l-img{
+    height: 50px;
+    width: 50px;
+}
+.commentWrapper{
+    width: 100%;
+    margin-bottom: 5px;
+    display: none;
+}
+.commentWrapper form{ 
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+#cbox{
+    resize: none;
+    border: 1px solid#ddd;
+    outline: none;
+    padding: 4px;
+    width: 85%;
+    padding-left: 10px;
+    font-size: 17px;
+    /* border-radius: 30px; */
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-right: none;
+   }
+   .displayComments{
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    margin-top: 10px;
+    border-bottom: none;
+    border-top: none;
+   }
+   .commentbox{
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 10px;
+    margin-top:5px;
+    border-radius: 10px;
+
+   }
+   .commenterid{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+   }
+.comment{
+    padding-right: 10px;
+    color: #444242e7;
+    font-style: italic;
+    width: 70%;
+    
+}
+   .c-img{
+    width: 40px;
+    height: 40px;
+}
+.c-name{
+    margin-bottom: 0;
+}
+
+#c-btn{
+    margin-left: -10px;
+    font-size: 20px;
+    border:1px solid #ddd;
+    padding:13px;
+    border-left: none;
+    background: transparent;
+border-top-right-radius: 50px;
+border-bottom-right-radius: 50px;
+outline: none;
+}
+@media(max-width:370px){
+    
+h1{
+    font-size: 23px;
+}
+.about{
+    font-size: medium;
+}
+    .brand{
+        font-size:20px;
+    }
+    .banner{
+    flex-direction: column-reverse;
+    }
+    .banner-img{
+        width: auto;
+        height: 70vh;
+    }
+
+    #profile{
+        flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    }
+    .img{
+        border: none;
+        margin: auto;
+        width: 100px;
+        height: 100px;
+       
+    }
+    .uh-list ul {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 100vw;
+    }
+    .uh-list ul li{
+        font-size: 16px;
+    }
+    .message{
+        flex-direction: column;
+        height: fit-content;
+        width: 100%;
+        margin: auto;
+    }
+    .private{
+        width: auto;
+    }
+    .read{
+        padding: 0;
+        border: none;
+    }
+    .log{
+        padding: 0;
+    }
+    .p_post{
+        padding: 0 2%;
+        width: 90%;
+    }
+    .m-p-img {
+        height: 50px;
+        width: 50px;
+    }
+    #lcr{
+        width: 100%;
+    }
+    p{
+        text-align: justify;
+    
+    }
+    
+.wrap-detail{
+    width: auto;
+}
+.wrap-detail h3{
+    margin: 0;
+}
+.wrap-detail p{
+    margin: 4px;
+}
+.member{
+   margin: 2%;
+    width:auto;
+}
+.profile-cell{
+    font-size: medium;
+}
+.member-cell{
+    font-size: medium;
+}
+.status-btn{
+    margin: auto;
+    font-size: medium;
+}
+.demo-img{
+    width: 30%;
+    height: auto;
+}
+.member-cell{
+    height: fit-content;
+}
+#banner-containt{
+    width: auto;
+    margin: auto 7%;
+}
+.header{
+    align-items: center;
+    padding:2px;
+}
+.banner{
+    margin:2px;
+}
+.detail{
+    width: 90%;
+    font-size: medium;
+}
+.sinput{
+    font-size: medium;
+}
+.form{
+    height: 70%;
+}
+.brand{
+    font-size:x-large;
+}
+#edit-profile form{
+    padding: 0;
+    height: 300px;
+    font-size: medium;
+}
+lable{
+    font-size: medium;
+}
+}
