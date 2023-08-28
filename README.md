@@ -1,1 +1,1 @@
-# artical-posting
+# article-posting
